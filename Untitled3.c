@@ -101,6 +101,7 @@ void displaySymptom()
 
     printf("\n\t\t\t\t\t|  SYMPTOMS  |\n");
     hypen();
+    // Eye Related
     case 1:
         {
             system("cls");
@@ -112,6 +113,7 @@ void displaySymptom()
     hypen();
     break;
         }
+    // Heart and Chest diseases
     case 2:
         {
             system("cls");
@@ -123,6 +125,7 @@ void displaySymptom()
     hypen();
     break;
         }
+    // Stomach Related
     case 3:
         {
             system("cls");
@@ -134,6 +137,7 @@ void displaySymptom()
     hypen();
     break;
         }
+    // Lungs Related
     case 4:
         {
             system("cls");
@@ -145,6 +149,7 @@ void displaySymptom()
     hypen();
     break;
         }
+    // Nerves and Pancreas Related
     case 5:
         {
             system("cls");
@@ -211,6 +216,7 @@ void fullslip()
     char check;
     system("cls");
     displaySymptom();
+    // Initializing Struct which is already defined above
     struct Diseases array[] =
     {
         //Option number1 , Option number2, Disease along with additional symptoms ,treatment, Symptom which are inputed by the user
