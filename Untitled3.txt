@@ -1,0 +1,2 @@
+This program take Bio-Data as input from patient and also takes some predefined symptoms from patient in the form of integer
+and then show disease of various body part as selected.
